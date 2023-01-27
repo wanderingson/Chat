@@ -1,0 +1,28 @@
+.statusBar{
+    display:flex;
+    justify-content: center;
+    padding:5px;
+    position: fixed;
+    width: 100%;
+    top:0px;
+}
+
+.statusBar > div{
+    width: 33%;
+}
+
+.statusBarCenter{
+    display: flex;
+    justify-content: center;
+}
+
+.statusBarRight{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 7px;
+    align-items: center;
+}
+
+.statusBarRight i{
+    margin-left: 5px;
+}

@@ -1,0 +1,103 @@
+.statusBar{
+	
+	background-color: white;
+
+}
+
+.loginForm{
+	
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	width:100%;
+	
+}
+
+
+.loginFormScreen{
+	margin-top : 90px;
+	width:40%;
+	padding:50px;
+	border: 2px solid #fae100;
+	margin-bottom: 30px;
+	
+}
+
+.joinBox{
+	
+	margin-top:60px;
+	width:100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.welcomeMessage{
+	
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	flex-direction:column;
+	width:100%;
+
+}
+
+.welcomeMessage > span{
+
+ 	font-size: 55px;
+ 	font-weight: 650;
+ 	margin-bottom: 20px;
+
+}
+
+.joinBox > form{
+
+	display:flex;
+	flex-direction: column;
+
+}
+
+.joinBox > form > input{
+
+	margin: 10px 0;
+	width:200px;
+	height: 25px;
+	border:none;
+
+}
+
+.joinBox > form > input{
+
+	border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+
+.joinBox > form > input:focus{
+	border-bottom-color: #fae100;
+}
+
+
+.joinBox > form > div{
+	margin : 10px 0;
+}
+
+.signUpButton{
+
+	background-color: #fae100;
+	border:none;
+	border-radius: 5px;
+	padding: 10px;
+}
+
+.signUpButton:hover{
+	cursor:pointer;
+}
+
+.cancelButton{
+	
+	width:67px;
+	height: 35px;
+	border-radius: 5px;
+	background-color:#fae100;
+}

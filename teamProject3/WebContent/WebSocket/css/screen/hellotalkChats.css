@@ -1,0 +1,201 @@
+
+
+.chatScreen{
+	background-color: var(--default);
+	height:1000vh;
+}
+
+.chatHeader{
+	
+	top:54px;
+	position: fixed;
+	width:100%;
+    background-color:var(--default);
+    display:flex;
+    flex-direction:column;
+    padding-bottom: 20px;
+	
+}
+
+#statusBar{
+	
+	 background-color: var(--default);
+	 width:100%;
+}
+
+
+.chatHeaderElement{
+	
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	width:100%;
+}
+
+
+
+
+.closeBtn{
+	
+	width: 80px;
+	height: 30px;
+	border-radius : 10px;
+	background-color:var(--gray);
+	
+}
+
+.chatBlock{
+	
+	top:24px;
+	position:fixed;
+	background-color: #abc1d1;
+	height:30px;
+	width:100%;
+	
+}
+
+.chatHeaderElement > div > input {
+	
+	margin : 0px 10px;
+	
+}
+
+
+
+.chatScreenMain{
+	
+	width:100%;
+	margin-top:120px;
+	
+}
+
+.noticeChat{
+	
+	width:100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+
+.noticeMsg{
+	
+	width:260px;
+	height: 30px;
+	border-radius: 20px;
+	background-color: rgba(0, 0, 0, 0.2);
+	display:flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+
+.myChat{
+	
+	width:100%;
+	display: flex;
+	justify-content: right;
+	align-items: center;
+	
+}
+
+.myMsg{
+	
+	text-align:right;
+	margin:8px 15px 8px 0px;
+	height:30px;
+	padding: 0px 7px;
+	border-radius: 10px;
+	border-top-right-radius:0px;
+	background-color: var(--yellow);
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	
+	
+}
+
+.otherPersonChat, .whisperChat{
+	
+	
+	width:100%;
+	display: flex;
+	justify-content: left;
+	align-items: center;
+	
+	
+}
+
+.otherPersonMsg, .whisperMsg{
+	
+	margin:8px 0px 8px 15px;
+	height:30px;
+	padding: 0px 7px;
+	border-radius: 10px;
+	border-top-left-radius:0px;
+	background-color: white;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+
+
+
+.chatFooter{
+	
+	bottom:0;
+	width:100%;
+	position:fixed;
+	padding:5px;
+	display:flex;
+	justify-content: space-between;
+	align-items : center;
+    background-color: white;
+    
+}
+
+
+.chatFooterElement{
+	width: 100%;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+
+.chatMessage{
+	
+	padding: 12px;
+	margin:0px 5px 0px 10px;
+	border : var(--main-border);
+	border-radius: 20px;
+	width: 60%;
+	
+}
+
+
+
+.fileUploadBtn:hover{
+	cursor:pointer;
+}
+
+.sendBtn:hover{
+	cursor:pointer;
+}
+
+
+.sendBtn{
+	
+	height: 30px;
+	width: 30px;
+	border-radius: 50%;
+	border:var(--main-border);
+	background-color:var(--yellow);
+}
+
+
